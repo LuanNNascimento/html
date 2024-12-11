@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOTEME Newsletter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .image {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 20px;
+        }
+        .text {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .link {
+            color: #000;
+            text-decoration: none;
+            font-weight: bold;
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+        .footer {
+            text-align: center;
+            font-size: 12px;
+            color: #777;
+            margin-top: 40px;
+        }
+        .footer a {
+            color: #000;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            TOTEME
+        </div>
+
+        <!-- Image -->
+        <img src="image.png" alt="Winter Capsule" class="image">
+
+        <!-- Text -->
+        <div class="text">
+            The Winter Capsule embodies TOTEME’s vision of cold-weather dressing. Effortless pieces in reversible shearling, double wool, and double-faced cashmere are reworked for the season’s coolest moments. Discover the capsule now available on <a href="https://toteme.com" class="link">toteme.com</a>.
+        </div>
+
+        <!-- Link -->
+        <a href="https://toteme.com" class="link">Winter Capsule</a>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>Web version | Privacy | Unsubscribe</p>
+            <p>Store locator | Customer care</p>
+            <p>IG | FB | LI | PN</p>
+        </div>
+    </div>
+</body>
+</html>
